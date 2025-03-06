@@ -39,3 +39,12 @@ export interface Theme {
 	sizing: ThemeSizing;
 	typography: ThemeTypography;
 }
+
+export interface Book {
+	id: number;
+	title: string;
+	tags: string[],
+	pageLink: string,
+	img: string,
+	info: string
+}
